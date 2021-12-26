@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Ubuntu+Condensed&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+
+.whoAmI{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Varela Round', sans-serif;
+    position: relative;
+    min-height: 8vh;
+    margin:7vh 4vw;
+    padding:5px;
+}
+.whoAmI h2{
+    font-size: 2em;
+    font-weight: 500;
+}
+.about h4{
+    font-size:1.5em;
+    font-weight: 300;
+}
+.whoAmI hr{
+    border: 8px solid #8c8b8b;
+    border-radius: 20px;
+}
+
+
+.pics{
+    display:flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.picc1,.picc2{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.pic2 a:link{
+    text-decoration: none;
+}
+
+.pic2 a:hover{
+    display:title;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 11vh;
+    border:2px solid black;
+    background-color: seagreen;
+    color:white;
+    margin:6px 0px;
+    padding:5px;
+}
+.navigation a{
+    color:white;
+    font-size: 25px;
+}
+.navigation a:link{
+   text-decoration: none;
+}
+.navigation a:hover{
+    color: yellow;
+ }
+
+ .navigation i{
+     margin-right: 10px;
+ }
+
+
+ /*adding media*/
+ @media (min-width: 280px) and (max-width:769px){
+     .whoAmI h2{
+        font-size: 1.5em;
+        font-weight: 500;
+        text-align: left;
+     }
+     .about h4{
+        text-align: center;
+        font-size:1em;
+        font-weight: 300;
+    }
+    .navigation{
+        display:flex;
+        flex-direction:column;
+        align-items:flex-start;
+        justify-content: center;
+    }
+    .whoAmI h2{
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+    .about h4{
+        font-size:1em;
+        font-weight: 300;
+    }
+    .navigation i{
+        margin-left: 15px;        
+    }
+    .pics{
+        display: none;
+    }
+   
+ }

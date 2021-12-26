@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Ubuntu+Condensed&family=Varela+Round&display=swap');
+.education{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 7vh 4vw;
+}
+.education hr{
+    border: 8px solid #8c8b8b;
+    border-radius: 20px;
+}
+
+.educationItems{
+    display:flex;
+    justify-content: space-around;
+    align-items: centers;
+    flex-wrap: wrap;
+    padding:4px 25px;
+    
+}
+.edu{
+    /*border:1px solid black;*/
+    border-radius:8px;
+    /*background-color: rgb(95, 194, 233);*/
+   /*background: linear-gradient(to top,red,orange,yellow);*/
+   background-color: #fffab0;
+   box-shadow: 0 0.5rem 1.2rem 0.3rem rgba(0, 0, 0, 0.1);
+    color:black;
+    width:350px;
+    height:160px;
+    text-align: center;
+    padding:12px 2px;
+}
+.edu h5{
+    font-weight: 700;
+    font-size: 1.2em;
+}
+.edu h6{
+    font-weight: 600;
+    font-size: 1em;
+}
+.edu p{
+    font-weight: 500;
+    font-size:0.9em;
+}
+@media (min-width:280px)and (max-width:1200px){
+    .edu{
+        height:150px;
+        margin-bottom:15px;
+        padding:2px;
+        line-height:1.1rem;
+    }
+    .edu h5{
+        font-size: 1em;
+    }
+    .edu h6{
+        font-size: .9em;
+    }
+}

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Ubuntu+Condensed&family=Varela+Round&display=swap');
+.games{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 7vh 4vw;
+}
+.games hr{
+    border: 8px solid #8c8b8b;
+    border-radius: 20px;
+}
+.gameItems{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    color: navy;
+}

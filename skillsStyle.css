@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Ubuntu+Condensed&family=Varela+Round&display=swap');
+
+
+.skills{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 7vh 4vw; 
+       
+}
+.skills hr{
+    border: 8px solid #8c8b8b;
+    border-radius: 20px;
+}
+
+
+.skillInfo{
+    width:80%;
+    margin:5px 20px;
+
+}
+.progressRep{
+    width:100%;
+    height:18px;
+    background-color: rgb(202, 189, 189);
+    border-radius: 8px;
+}
+.progressRep .progress-bar-rep{
+    width:0%;
+    opacity: 0;
+    height: 100%;
+    background-color: orangered;
+    border-radius:8px;
+    position: relative;
+    transition: all .5s;
+}
+
+.progress-bar-rep span{
+    position: absolute;
+    top:0;
+    right:0;
+    color: white;
+
+}
+.skillInfo p{
+    margin-bottom:0;
+    margin-top:15px;
+}
+
+@media (min-width:280px)and (max-width:768px){
+    .skillInfo{
+        width:100%;
+        margin:5px 2px;
+    }
+}
