@@ -15,8 +15,8 @@ body{
     align-items: center;
     font-family: 'Ubuntu', sans-serif;
     position: relative;    
-   min-height: 40vh;
-    margin:7vh 4vw;
+   /*min-height: 40vh;*/
+    margin:7vh 4vw 3vh 4vw;
 }
 
 .selfPic img{
