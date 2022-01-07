@@ -32,6 +32,7 @@
     height: 100px;
     width: 88vw;
     transform: perspective(500px) rotateX(180deg);    
+    overflow:auto;
 }
 
 .frontp,.backp{
